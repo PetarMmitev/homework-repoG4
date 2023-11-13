@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dado Tea Lunch Special</h1>
+      <section>
+        <p>Monday through friday</p>
+        <p>11am - 3pm</p>
+        <p>$9.95 plus tax</p>
+        <p>Includes sandwich, snack and drink.</p>
+      </section>
+    </header>
+    <main>
+      <section>
+        <fieldset>
+          <legend>Order information</legend>
+          <form action="" method="POST">
+            <p><strong>Name</strong></p>
+            <input type="username" />
+          </form>
+          <br />
+          <form action="" method="POST">
+            <input type="radio" id="togo" />
+            <label for="togo"><strong>To go</strong></label>
+            <br />
+            <input type="radio" id="here" />
+            <label for="here"><strong>Here</strong></label>
+          </form>
+        </fieldset>
+      </section>
+<section>
+  <fieldset>
+    <legend>Sandwiches</legend>
+    <form action="" method="POST">
+      <p><strong>Monday</strong></p>
+      <input type="radio" id="mondayA" />
+      <label for="mondayA">Tomato Mozzarela</label>
+      <br />
+      <input type="radio" id="mondayB" />
+      <label for="mondayB">Chicken Salad</label>
+      <br />
+      <p><strong>Tuesday</strong></p>
+      <input type="radio" id="tuesdayA" />
+      <label for="tuesdayA">Greek salad wrap</label>
+      <br />
+      <input type="radio" id="tuesdayB" />
+      <label for="tuesdayB">Toto wrap</label>
+      <br />
+      <p><strong>Wednesday</strong></p>
+      <input type="radio" id="wednesdayA" />
+      <label for="wednesdayA">Red Pepper Hummus</label>
+      <br />
+      <input type="radio" id="wednesdayB" />
+      <label for="wednesdayB">Roasted Turkey</label>
+      <br />
+      <p><strong>Thursday</strong></p>
+      <input type="radio" id="thursdayA" />
+      <label for="thursdayA">Carrot-Ginger Hummus Wrap</label>
+      <br />
+      <input type="radio" id="thursdayB" />
+      <label for="thursdayB">Egg Salad</label>
+      <br />
+      <p><strong>Friday</strong></p>
+      <input type="radio" id="fridayA" />
+      <label for="fridayA">Dado Wrap</label>
+      <br />
+      <input type="radio" id="fridayB" />
+      <label for="fridayB">Tuna Salad</label>
+     <hr>
+     <input type="checkbox" id="glutenfree"/>
+     <label for="gluten free">Gluten Free Bread &#40 75&cent extra &#41</label>
+    </form>
+     <!-- Ne znam zoshto pocna tuka da plache prettier nemav nikakov problem se dodeka ne dojdov do labelot kaj checkboxot za gluten free bread, davashe nekoj error deka e  
+    ne zatvoren dobro tagot-->
+  </fieldset>
+</section>
+
+<section>
+  <fieldset>
+<legend>Snack</legend>
+<form action="" method="POST">
+<p><strong>Snacks</strong></p>
+<input type="radio" id="apple">
+<label for="apple">Apple</label>
+<br>
+<input type="radio" id="banana">
+<label for="banana">Banana</label>
+<br>
+<input type="radio" id="potatochips">
+<label for="potatochips">Potato Chips</label>
+</form>
+  </fieldset>
+</section>
+<section>
+ <fieldset>
+   <legend>Drink</legend>
+      <p><strong>Drinks</strong></p>
+      <form action="" method="POST">
+       <select name="drinks" id="drinks">
+          <option value="coffee">Coffee or Iced Coffee</option>
+          <option value="organic">Organic Peppermint</option>
+          <option value="greentea">Hot or Iced Sencha Green Tea</option>
+          <option value="blacktea">Hot or Iced Keemun Black Tea</option>
+         </select>
+      </form>
+      <hr>
+      <form action="" method="POST">
+          <input type="checkbox" id="largedrink">
+          <label for="largedrink">Large drink &#40 75 &cent extra &#41 </label>
+      </form>
+  </fieldset>
+  <br>
+<form action="" method="POST">
+<input type="submit" value="Place Order">
+</form>
+</section>
+    </main>
+  </body>
+</html>
